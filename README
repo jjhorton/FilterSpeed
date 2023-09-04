@@ -1,0 +1,19 @@
+# Filter Speed Tests
+
+some comparison between FIR and FFT fioter speeds in GNU Radio, rhat were completed out of curiousity. 
+
+# Testing Method
+
+
+Testing platforms 
+- Raspberry Pi 4 (8Gb)
+- Macbook Air M1 (8Gb)
+- PC (Ryzen 5850, 64Gb)
+
+
+# Results
+
+
+# Conclusion
+
+
