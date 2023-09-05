@@ -1,0 +1,395 @@
+Running benchmark 1/4 "FIR Filter (Complex taps, Complex input, length 2)"
+pagesize :debug: Setting pagesize to 16384 B
+top_block_impl :debug: Using default scheduler "TPB"
+	Trial 1 - 125.956 MS/s, 960.97 MiB/s
+	Trial 2 - 122.776 MS/s, 936.71 MiB/s
+	Trial 3 - 122.308 MS/s, 933.14 MiB/s
+	Trial 4 - 122.668 MS/s, 935.89 MiB/s
+	Trial 5 - 122.891 MS/s, 937.58 MiB/s
+	Trial 6 - 124.369 MS/s, 948.86 MiB/s
+	Trial 7 - 123.503 MS/s, 942.25 MiB/s
+	Trial 8 - 124.151 MS/s, 947.20 MiB/s
+	Trial 9 - 122.764 MS/s, 936.62 MiB/s
+	Trial 10 - 123.456 MS/s, 941.89 MiB/s
+	Trial 11 - 122.671 MS/s, 935.90 MiB/s
+	Average - 123.410 MS/s, 941.5 MiB/s
+	  Stdev - 1.016 MS/s, 7.8 MiB/s
+Running benchmark 1/4 "FIR Filter (Complex taps, Complex input, length 4)"
+	Trial 1 - 90.906 MS/s, 693.56 MiB/s
+	Trial 2 - 90.575 MS/s, 691.04 MiB/s
+	Trial 3 - 90.551 MS/s, 690.85 MiB/s
+	Trial 4 - 90.648 MS/s, 691.59 MiB/s
+	Trial 5 - 91.766 MS/s, 700.12 MiB/s
+	Trial 6 - 90.375 MS/s, 689.50 MiB/s
+	Trial 7 - 87.829 MS/s, 670.08 MiB/s
+	Trial 8 - 90.743 MS/s, 692.32 MiB/s
+	Trial 9 - 90.817 MS/s, 692.88 MiB/s
+	Trial 10 - 90.810 MS/s, 692.83 MiB/s
+	Trial 11 - 90.702 MS/s, 692.00 MiB/s
+	Average - 90.520 MS/s, 690.6 MiB/s
+	  Stdev - 0.916 MS/s, 7.0 MiB/s
+Running benchmark 1/4 "FIR Filter (Complex taps, Complex input, length 8)"
+	Trial 1 - 112.451 MS/s, 857.94 MiB/s
+	Trial 2 - 112.386 MS/s, 857.44 MiB/s
+	Trial 3 - 112.088 MS/s, 855.17 MiB/s
+	Trial 4 - 112.105 MS/s, 855.29 MiB/s
+	Trial 5 - 111.073 MS/s, 847.42 MiB/s
+	Trial 6 - 111.881 MS/s, 853.58 MiB/s
+	Trial 7 - 111.952 MS/s, 854.12 MiB/s
+	Trial 8 - 112.107 MS/s, 855.31 MiB/s
+	Trial 9 - 112.727 MS/s, 860.04 MiB/s
+	Trial 10 - 112.735 MS/s, 860.10 MiB/s
+	Trial 11 - 112.133 MS/s, 855.51 MiB/s
+	Average - 112.149 MS/s, 855.6 MiB/s
+	  Stdev - 0.437 MS/s, 3.3 MiB/s
+Running benchmark 1/4 "FIR Filter (Complex taps, Complex input, length 16)"
+	Trial 1 - 86.710 MS/s, 661.54 MiB/s
+	Trial 2 - 86.630 MS/s, 660.93 MiB/s
+	Trial 3 - 85.920 MS/s, 655.52 MiB/s
+	Trial 4 - 86.274 MS/s, 658.22 MiB/s
+	Trial 5 - 87.009 MS/s, 663.82 MiB/s
+	Trial 6 - 86.939 MS/s, 663.29 MiB/s
+	Trial 7 - 87.427 MS/s, 667.01 MiB/s
+	Trial 8 - 86.055 MS/s, 656.55 MiB/s
+	Trial 9 - 86.443 MS/s, 659.51 MiB/s
+	Trial 10 - 86.726 MS/s, 661.67 MiB/s
+	Trial 11 - 86.836 MS/s, 662.50 MiB/s
+	Average - 86.633 MS/s, 661.0 MiB/s
+	  Stdev - 0.419 MS/s, 3.2 MiB/s
+Running benchmark 1/4 "FIR Filter (Complex taps, Complex input, length 32)"
+	Trial 1 - 55.988 MS/s, 427.16 MiB/s
+	Trial 2 - 56.160 MS/s, 428.47 MiB/s
+	Trial 3 - 56.227 MS/s, 428.98 MiB/s
+	Trial 4 - 55.675 MS/s, 424.77 MiB/s
+	Trial 5 - 55.586 MS/s, 424.09 MiB/s
+	Trial 6 - 54.371 MS/s, 414.82 MiB/s
+	Trial 7 - 55.476 MS/s, 423.25 MiB/s
+	Trial 8 - 55.694 MS/s, 424.91 MiB/s
+	Trial 9 - 55.783 MS/s, 425.59 MiB/s
+	Trial 10 - 55.694 MS/s, 424.91 MiB/s
+	Trial 11 - 55.695 MS/s, 424.92 MiB/s
+	Average - 55.668 MS/s, 424.7 MiB/s
+	  Stdev - 0.467 MS/s, 3.6 MiB/s
+Running benchmark 1/4 "FIR Filter (Complex taps, Complex input, length 64)"
+	Trial 1 - 32.847 MS/s, 250.60 MiB/s
+	Trial 2 - 32.900 MS/s, 251.01 MiB/s
+	Trial 3 - 32.646 MS/s, 249.07 MiB/s
+	Trial 4 - 32.742 MS/s, 249.80 MiB/s
+	Trial 5 - 32.853 MS/s, 250.65 MiB/s
+	Trial 6 - 32.637 MS/s, 249.00 MiB/s
+	Trial 7 - 30.458 MS/s, 232.38 MiB/s
+	Trial 8 - 32.612 MS/s, 248.81 MiB/s
+	Trial 9 - 32.746 MS/s, 249.83 MiB/s
+	Trial 10 - 32.533 MS/s, 248.21 MiB/s
+	Trial 11 - 32.941 MS/s, 251.32 MiB/s
+	Average - 32.538 MS/s, 248.2 MiB/s
+	  Stdev - 0.669 MS/s, 5.1 MiB/s
+Running benchmark 1/4 "FIR Filter (Complex taps, Complex input, length 128)"
+	Trial 1 - 17.429 MS/s, 132.97 MiB/s
+	Trial 2 - 17.792 MS/s, 135.74 MiB/s
+	Trial 3 - 17.849 MS/s, 136.18 MiB/s
+	Trial 4 - 17.854 MS/s, 136.22 MiB/s
+	Trial 5 - 17.905 MS/s, 136.60 MiB/s
+	Trial 6 - 17.875 MS/s, 136.38 MiB/s
+	Trial 7 - 17.871 MS/s, 136.35 MiB/s
+	Trial 8 - 17.942 MS/s, 136.89 MiB/s
+	Trial 9 - 17.949 MS/s, 136.94 MiB/s
+	Trial 10 - 18.015 MS/s, 137.44 MiB/s
+	Trial 11 - 18.146 MS/s, 138.45 MiB/s
+	Average - 17.875 MS/s, 136.4 MiB/s
+	  Stdev - 0.168 MS/s, 1.3 MiB/s
+Running benchmark 2/4 "FIR Filter (1 Thread, FFT, Complex taps, Complex input, length 2)"
+	Trial 1 - 85.615 MS/s, 653.19 MiB/s
+	Trial 2 - 82.622 MS/s, 630.36 MiB/s
+	Trial 3 - 83.399 MS/s, 636.29 MiB/s
+	Trial 4 - 84.069 MS/s, 641.39 MiB/s
+	Trial 5 - 84.482 MS/s, 644.55 MiB/s
+	Trial 6 - 84.246 MS/s, 642.75 MiB/s
+	Trial 7 - 84.648 MS/s, 645.81 MiB/s
+	Trial 8 - 84.716 MS/s, 646.33 MiB/s
+	Trial 9 - 84.398 MS/s, 643.91 MiB/s
+	Trial 10 - 85.854 MS/s, 655.01 MiB/s
+	Trial 11 - 85.658 MS/s, 653.52 MiB/s
+	Average - 84.519 MS/s, 644.8 MiB/s
+	  Stdev - 0.928 MS/s, 7.1 MiB/s
+Running benchmark 2/4 "FIR Filter (1 Thread, FFT, Complex taps, Complex input, length 4)"
+	Trial 1 - 81.927 MS/s, 625.06 MiB/s
+	Trial 2 - 82.815 MS/s, 631.83 MiB/s
+	Trial 3 - 82.629 MS/s, 630.41 MiB/s
+	Trial 4 - 82.407 MS/s, 628.72 MiB/s
+	Trial 5 - 82.296 MS/s, 627.87 MiB/s
+	Trial 6 - 73.972 MS/s, 564.36 MiB/s
+	Trial 7 - 78.631 MS/s, 599.91 MiB/s
+	Trial 8 - 81.701 MS/s, 623.33 MiB/s
+	Trial 9 - 80.520 MS/s, 614.32 MiB/s
+	Trial 10 - 81.002 MS/s, 618.00 MiB/s
+	Trial 11 - 80.270 MS/s, 612.41 MiB/s
+	Average - 80.743 MS/s, 616.0 MiB/s
+	  Stdev - 2.449 MS/s, 18.7 MiB/s
+Running benchmark 2/4 "FIR Filter (1 Thread, FFT, Complex taps, Complex input, length 8)"
+	Trial 1 - 80.828 MS/s, 616.67 MiB/s
+	Trial 2 - 70.103 MS/s, 534.84 MiB/s
+	Trial 3 - 81.408 MS/s, 621.09 MiB/s
+	Trial 4 - 81.047 MS/s, 618.34 MiB/s
+	Trial 5 - 82.233 MS/s, 627.39 MiB/s
+	Trial 6 - 74.292 MS/s, 566.80 MiB/s
+	Trial 7 - 80.088 MS/s, 611.02 MiB/s
+	Trial 8 - 80.704 MS/s, 615.72 MiB/s
+	Trial 9 - 81.065 MS/s, 618.48 MiB/s
+	Trial 10 - 82.664 MS/s, 630.68 MiB/s
+	Trial 11 - 81.284 MS/s, 620.15 MiB/s
+	Average - 79.611 MS/s, 607.4 MiB/s
+	  Stdev - 3.668 MS/s, 28.0 MiB/s
+Running benchmark 2/4 "FIR Filter (1 Thread, FFT, Complex taps, Complex input, length 16)"
+	Trial 1 - 67.985 MS/s, 518.68 MiB/s
+	Trial 2 - 76.722 MS/s, 585.34 MiB/s
+	Trial 3 - 75.220 MS/s, 573.88 MiB/s
+	Trial 4 - 76.665 MS/s, 584.91 MiB/s
+	Trial 5 - 70.578 MS/s, 538.47 MiB/s
+	Trial 6 - 73.791 MS/s, 562.98 MiB/s
+	Trial 7 - 76.134 MS/s, 580.86 MiB/s
+	Trial 8 - 75.816 MS/s, 578.43 MiB/s
+	Trial 9 - 75.839 MS/s, 578.61 MiB/s
+	Trial 10 - 76.635 MS/s, 584.68 MiB/s
+	Trial 11 - 76.008 MS/s, 579.89 MiB/s
+	Average - 74.672 MS/s, 569.7 MiB/s
+	  Stdev - 2.717 MS/s, 20.7 MiB/s
+Running benchmark 2/4 "FIR Filter (1 Thread, FFT, Complex taps, Complex input, length 32)"
+	Trial 1 - 69.522 MS/s, 530.41 MiB/s
+	Trial 2 - 69.075 MS/s, 527.00 MiB/s
+	Trial 3 - 69.577 MS/s, 530.83 MiB/s
+	Trial 4 - 69.022 MS/s, 526.60 MiB/s
+	Trial 5 - 68.739 MS/s, 524.44 MiB/s
+	Trial 6 - 69.669 MS/s, 531.53 MiB/s
+	Trial 7 - 70.108 MS/s, 534.88 MiB/s
+	Trial 8 - 69.575 MS/s, 530.81 MiB/s
+	Trial 9 - 70.268 MS/s, 536.10 MiB/s
+	Trial 10 - 69.614 MS/s, 531.11 MiB/s
+	Trial 11 - 70.715 MS/s, 539.51 MiB/s
+	Average - 69.626 MS/s, 531.2 MiB/s
+	  Stdev - 0.548 MS/s, 4.2 MiB/s
+Running benchmark 2/4 "FIR Filter (1 Thread, FFT, Complex taps, Complex input, length 64)"
+	Trial 1 - 59.408 MS/s, 453.25 MiB/s
+	Trial 2 - 59.643 MS/s, 455.04 MiB/s
+	Trial 3 - 60.118 MS/s, 458.66 MiB/s
+	Trial 4 - 59.750 MS/s, 455.85 MiB/s
+	Trial 5 - 59.267 MS/s, 452.17 MiB/s
+	Trial 6 - 60.179 MS/s, 459.13 MiB/s
+	Trial 7 - 59.981 MS/s, 457.62 MiB/s
+	Trial 8 - 59.846 MS/s, 456.59 MiB/s
+	Trial 9 - 59.628 MS/s, 454.93 MiB/s
+	Trial 10 - 59.603 MS/s, 454.73 MiB/s
+	Trial 11 - 60.526 MS/s, 461.78 MiB/s
+	Average - 59.814 MS/s, 456.3 MiB/s
+	  Stdev - 0.349 MS/s, 2.7 MiB/s
+Running benchmark 2/4 "FIR Filter (1 Thread, FFT, Complex taps, Complex input, length 128)"
+	Trial 1 - 50.779 MS/s, 387.41 MiB/s
+	Trial 2 - 52.087 MS/s, 397.39 MiB/s
+	Trial 3 - 51.451 MS/s, 392.54 MiB/s
+	Trial 4 - 51.710 MS/s, 394.51 MiB/s
+	Trial 5 - 53.158 MS/s, 405.56 MiB/s
+	Trial 6 - 52.699 MS/s, 402.06 MiB/s
+	Trial 7 - 52.429 MS/s, 400.00 MiB/s
+	Trial 8 - 52.198 MS/s, 398.24 MiB/s
+	Trial 9 - 52.060 MS/s, 397.19 MiB/s
+	Trial 10 - 51.695 MS/s, 394.40 MiB/s
+	Trial 11 - 52.383 MS/s, 399.65 MiB/s
+	Average - 52.059 MS/s, 397.2 MiB/s
+	  Stdev - 0.614 MS/s, 4.7 MiB/s
+Running benchmark 3/4 "FIR Filter (2 Thread, FFT, Complex taps, Complex input, length 2)"
+	Trial 1 - 82.956 MS/s, 632.91 MiB/s
+	Trial 2 - 83.034 MS/s, 633.50 MiB/s
+	Trial 3 - 82.175 MS/s, 626.95 MiB/s
+	Trial 4 - 83.694 MS/s, 638.53 MiB/s
+	Trial 5 - 82.858 MS/s, 632.16 MiB/s
+	Trial 6 - 82.907 MS/s, 632.53 MiB/s
+	Trial 7 - 83.227 MS/s, 634.97 MiB/s
+	Trial 8 - 82.361 MS/s, 628.36 MiB/s
+	Trial 9 - 83.208 MS/s, 634.82 MiB/s
+	Trial 10 - 82.729 MS/s, 631.18 MiB/s
+	Trial 11 - 80.910 MS/s, 617.29 MiB/s
+	Average - 82.733 MS/s, 631.2 MiB/s
+	  Stdev - 0.697 MS/s, 5.3 MiB/s
+Running benchmark 3/4 "FIR Filter (2 Thread, FFT, Complex taps, Complex input, length 4)"
+	Trial 1 - 81.211 MS/s, 619.59 MiB/s
+	Trial 2 - 82.375 MS/s, 628.47 MiB/s
+	Trial 3 - 80.900 MS/s, 617.22 MiB/s
+	Trial 4 - 80.210 MS/s, 611.96 MiB/s
+	Trial 5 - 80.710 MS/s, 615.77 MiB/s
+	Trial 6 - 81.057 MS/s, 618.42 MiB/s
+	Trial 7 - 80.842 MS/s, 616.77 MiB/s
+	Trial 8 - 80.354 MS/s, 613.05 MiB/s
+	Trial 9 - 81.293 MS/s, 620.21 MiB/s
+	Trial 10 - 80.590 MS/s, 614.85 MiB/s
+	Trial 11 - 80.257 MS/s, 612.31 MiB/s
+	Average - 80.891 MS/s, 617.1 MiB/s
+	  Stdev - 0.586 MS/s, 4.5 MiB/s
+Running benchmark 3/4 "FIR Filter (2 Thread, FFT, Complex taps, Complex input, length 8)"
+	Trial 1 - 77.688 MS/s, 592.71 MiB/s
+	Trial 2 - 80.850 MS/s, 616.84 MiB/s
+	Trial 3 - 74.140 MS/s, 565.64 MiB/s
+	Trial 4 - 75.649 MS/s, 577.16 MiB/s
+	Trial 5 - 48.739 MS/s, 371.85 MiB/s
+	Trial 6 - 77.113 MS/s, 588.32 MiB/s
+	Trial 7 - 81.095 MS/s, 618.71 MiB/s
+	Trial 8 - 82.431 MS/s, 628.90 MiB/s
+	Trial 9 - 81.237 MS/s, 619.79 MiB/s
+	Trial 10 - 80.251 MS/s, 612.27 MiB/s
+	Trial 11 - 82.079 MS/s, 626.22 MiB/s
+	Average - 76.479 MS/s, 583.5 MiB/s
+	  Stdev - 9.153 MS/s, 69.8 MiB/s
+Running benchmark 3/4 "FIR Filter (2 Thread, FFT, Complex taps, Complex input, length 16)"
+	Trial 1 - 76.309 MS/s, 582.19 MiB/s
+	Trial 2 - 76.336 MS/s, 582.39 MiB/s
+	Trial 3 - 76.074 MS/s, 580.40 MiB/s
+	Trial 4 - 76.386 MS/s, 582.78 MiB/s
+	Trial 5 - 75.669 MS/s, 577.31 MiB/s
+	Trial 6 - 75.812 MS/s, 578.40 MiB/s
+	Trial 7 - 76.529 MS/s, 583.87 MiB/s
+	Trial 8 - 71.125 MS/s, 542.64 MiB/s
+	Trial 9 - 76.309 MS/s, 582.19 MiB/s
+	Trial 10 - 77.302 MS/s, 589.77 MiB/s
+	Trial 11 - 77.492 MS/s, 591.22 MiB/s
+	Average - 75.940 MS/s, 579.4 MiB/s
+	  Stdev - 1.611 MS/s, 12.3 MiB/s
+Running benchmark 3/4 "FIR Filter (2 Thread, FFT, Complex taps, Complex input, length 32)"
+	Trial 1 - 71.682 MS/s, 546.89 MiB/s
+	Trial 2 - 71.011 MS/s, 541.77 MiB/s
+	Trial 3 - 71.945 MS/s, 548.90 MiB/s
+	Trial 4 - 69.184 MS/s, 527.83 MiB/s
+	Trial 5 - 71.876 MS/s, 548.37 MiB/s
+	Trial 6 - 71.001 MS/s, 541.70 MiB/s
+	Trial 7 - 68.940 MS/s, 525.97 MiB/s
+	Trial 8 - 69.074 MS/s, 526.99 MiB/s
+	Trial 9 - 69.765 MS/s, 532.26 MiB/s
+	Trial 10 - 69.554 MS/s, 530.66 MiB/s
+	Trial 11 - 69.784 MS/s, 532.41 MiB/s
+	Average - 70.347 MS/s, 536.7 MiB/s
+	  Stdev - 1.119 MS/s, 8.5 MiB/s
+Running benchmark 3/4 "FIR Filter (2 Thread, FFT, Complex taps, Complex input, length 64)"
+	Trial 1 - 3.396 MS/s, 25.91 MiB/s
+	Trial 2 - 3.384 MS/s, 25.82 MiB/s
+	Trial 3 - 3.337 MS/s, 25.46 MiB/s
+	Trial 4 - 3.364 MS/s, 25.67 MiB/s
+	Trial 5 - 3.363 MS/s, 25.66 MiB/s
+	Trial 6 - 3.417 MS/s, 26.07 MiB/s
+	Trial 7 - 3.401 MS/s, 25.95 MiB/s
+	Trial 8 - 3.404 MS/s, 25.97 MiB/s
+	Trial 9 - 3.418 MS/s, 26.07 MiB/s
+	Trial 10 - 3.401 MS/s, 25.95 MiB/s
+	Trial 11 - 3.405 MS/s, 25.98 MiB/s
+	Average - 3.390 MS/s, 25.9 MiB/s
+	  Stdev - 0.024 MS/s, 0.2 MiB/s
+Running benchmark 3/4 "FIR Filter (2 Thread, FFT, Complex taps, Complex input, length 128)"
+	Trial 1 - 4.905 MS/s, 37.42 MiB/s
+	Trial 2 - 4.864 MS/s, 37.11 MiB/s
+	Trial 3 - 4.869 MS/s, 37.14 MiB/s
+	Trial 4 - 4.933 MS/s, 37.63 MiB/s
+	Trial 5 - 4.913 MS/s, 37.48 MiB/s
+	Trial 6 - 4.999 MS/s, 38.14 MiB/s
+	Trial 7 - 4.945 MS/s, 37.73 MiB/s
+	Trial 8 - 4.906 MS/s, 37.43 MiB/s
+	Trial 9 - 4.899 MS/s, 37.38 MiB/s
+	Trial 10 - 4.884 MS/s, 37.26 MiB/s
+	Trial 11 - 4.897 MS/s, 37.36 MiB/s
+	Average - 4.910 MS/s, 37.5 MiB/s
+	  Stdev - 0.036 MS/s, 0.3 MiB/s
+Running benchmark 4/4 "FIR Filter (4 Thread, FFT, Complex taps, Complex input, length 2)"
+	Trial 1 - 82.567 MS/s, 629.93 MiB/s
+	Trial 2 - 82.925 MS/s, 632.67 MiB/s
+	Trial 3 - 83.221 MS/s, 634.93 MiB/s
+	Trial 4 - 83.332 MS/s, 635.78 MiB/s
+	Trial 5 - 83.084 MS/s, 633.88 MiB/s
+	Trial 6 - 83.419 MS/s, 636.43 MiB/s
+	Trial 7 - 82.942 MS/s, 632.80 MiB/s
+	Trial 8 - 83.239 MS/s, 635.06 MiB/s
+	Trial 9 - 83.912 MS/s, 640.20 MiB/s
+	Trial 10 - 83.332 MS/s, 635.77 MiB/s
+	Trial 11 - 83.104 MS/s, 634.03 MiB/s
+	Average - 83.189 MS/s, 634.7 MiB/s
+	  Stdev - 0.324 MS/s, 2.5 MiB/s
+Running benchmark 4/4 "FIR Filter (4 Thread, FFT, Complex taps, Complex input, length 4)"
+	Trial 1 - 80.384 MS/s, 613.28 MiB/s
+	Trial 2 - 80.416 MS/s, 613.53 MiB/s
+	Trial 3 - 80.693 MS/s, 615.64 MiB/s
+	Trial 4 - 80.440 MS/s, 613.71 MiB/s
+	Trial 5 - 81.193 MS/s, 619.45 MiB/s
+	Trial 6 - 80.676 MS/s, 615.51 MiB/s
+	Trial 7 - 80.823 MS/s, 616.63 MiB/s
+	Trial 8 - 80.433 MS/s, 613.65 MiB/s
+	Trial 9 - 80.412 MS/s, 613.50 MiB/s
+	Trial 10 - 80.071 MS/s, 610.89 MiB/s
+	Trial 11 - 80.854 MS/s, 616.87 MiB/s
+	Average - 80.581 MS/s, 614.8 MiB/s
+	  Stdev - 0.290 MS/s, 2.2 MiB/s
+Running benchmark 4/4 "FIR Filter (4 Thread, FFT, Complex taps, Complex input, length 8)"
+	Trial 1 - 81.661 MS/s, 623.02 MiB/s
+	Trial 2 - 81.159 MS/s, 619.19 MiB/s
+	Trial 3 - 80.947 MS/s, 617.58 MiB/s
+	Trial 4 - 81.799 MS/s, 624.08 MiB/s
+	Trial 5 - 81.167 MS/s, 619.26 MiB/s
+	Trial 6 - 81.538 MS/s, 622.09 MiB/s
+	Trial 7 - 81.790 MS/s, 624.01 MiB/s
+	Trial 8 - 81.378 MS/s, 620.86 MiB/s
+	Trial 9 - 81.330 MS/s, 620.50 MiB/s
+	Trial 10 - 80.789 MS/s, 616.37 MiB/s
+	Trial 11 - 67.738 MS/s, 516.80 MiB/s
+	Average - 80.118 MS/s, 611.3 MiB/s
+	  Stdev - 3.927 MS/s, 30.0 MiB/s
+Running benchmark 4/4 "FIR Filter (4 Thread, FFT, Complex taps, Complex input, length 16)"
+	Trial 1 - 77.708 MS/s, 592.86 MiB/s
+	Trial 2 - 76.421 MS/s, 583.05 MiB/s
+	Trial 3 - 75.572 MS/s, 576.57 MiB/s
+	Trial 4 - 76.621 MS/s, 584.58 MiB/s
+	Trial 5 - 75.976 MS/s, 579.65 MiB/s
+	Trial 6 - 77.053 MS/s, 587.87 MiB/s
+	Trial 7 - 73.592 MS/s, 561.46 MiB/s
+	Trial 8 - 75.830 MS/s, 578.54 MiB/s
+	Trial 9 - 76.115 MS/s, 580.71 MiB/s
+	Trial 10 - 76.415 MS/s, 583.00 MiB/s
+	Trial 11 - 76.264 MS/s, 581.85 MiB/s
+	Average - 76.142 MS/s, 580.9 MiB/s
+	  Stdev - 0.983 MS/s, 7.5 MiB/s
+Running benchmark 4/4 "FIR Filter (4 Thread, FFT, Complex taps, Complex input, length 32)"
+	Trial 1 - 72.094 MS/s, 550.04 MiB/s
+	Trial 2 - 69.137 MS/s, 527.47 MiB/s
+	Trial 3 - 70.310 MS/s, 536.42 MiB/s
+	Trial 4 - 71.381 MS/s, 544.60 MiB/s
+	Trial 5 - 69.753 MS/s, 532.17 MiB/s
+	Trial 6 - 69.738 MS/s, 532.06 MiB/s
+	Trial 7 - 69.886 MS/s, 533.18 MiB/s
+	Trial 8 - 69.070 MS/s, 526.96 MiB/s
+	Trial 9 - 69.814 MS/s, 532.64 MiB/s
+	Trial 10 - 69.456 MS/s, 529.91 MiB/s
+	Trial 11 - 69.705 MS/s, 531.81 MiB/s
+	Average - 70.031 MS/s, 534.3 MiB/s
+	  Stdev - 0.882 MS/s, 6.7 MiB/s
+Running benchmark 4/4 "FIR Filter (4 Thread, FFT, Complex taps, Complex input, length 64)"
+	Trial 1 - 1.784 MS/s, 13.61 MiB/s
+	Trial 2 - 2.040 MS/s, 15.56 MiB/s
+	Trial 3 - 2.020 MS/s, 15.41 MiB/s
+	Trial 4 - 1.905 MS/s, 14.53 MiB/s
+	Trial 5 - 2.035 MS/s, 15.53 MiB/s
+	Trial 6 - 1.916 MS/s, 14.61 MiB/s
+	Trial 7 - 1.710 MS/s, 13.04 MiB/s
+	Trial 8 - 1.715 MS/s, 13.08 MiB/s
+	Trial 9 - 1.965 MS/s, 14.99 MiB/s
+	Trial 10 - 1.794 MS/s, 13.69 MiB/s
+	Trial 11 - 2.048 MS/s, 15.62 MiB/s
+	Average - 1.903 MS/s, 14.5 MiB/s
+	  Stdev - 0.126 MS/s, 1.0 MiB/s
+Running benchmark 4/4 "FIR Filter (4 Thread, FFT, Complex taps, Complex input, length 128)"
+	Trial 1 - 2.460 MS/s, 18.77 MiB/s
+	Trial 2 - 3.818 MS/s, 29.13 MiB/s
+	Trial 3 - 2.018 MS/s, 15.40 MiB/s
+	Trial 4 - 3.167 MS/s, 24.16 MiB/s
+	Trial 5 - 3.371 MS/s, 25.72 MiB/s
+	Trial 6 - 3.767 MS/s, 28.74 MiB/s
+	Trial 7 - 3.779 MS/s, 28.83 MiB/s
+	Trial 8 - 1.913 MS/s, 14.59 MiB/s
+	Trial 9 - 3.228 MS/s, 24.63 MiB/s
+	Trial 10 - 3.926 MS/s, 29.96 MiB/s
+	Trial 11 - 3.980 MS/s, 30.36 MiB/s
+	Average - 3.221 MS/s, 24.6 MiB/s
+	  Stdev - 0.726 MS/s, 5.5 MiB/s
+{"version": "3.10.7.0", "parameters": {"num_trials": 11, "trial_duration": 5.0}, "benchmarks": [{"name": "FIR Filter (Complex taps, Complex input, length 2)", "block_name": "filter.fir_filter_ccc", "results": {"samples_per_second": 123410303.43527985, "samples_per_second_stdev": 1016202.4292097708, "bytes_per_second": 987282427.4822388}}, {"name": "FIR Filter (Complex taps, Complex input, length 4)", "block_name": "filter.fir_filter_ccc", "results": {"samples_per_second": 90520309.56578761, "samples_per_second_stdev": 916498.3054670931, "bytes_per_second": 724162476.5263009}}, {"name": "FIR Filter (Complex taps, Complex input, length 8)", "block_name": "filter.fir_filter_ccc", "results": {"samples_per_second": 112148905.79303418, "samples_per_second_stdev": 436958.6629495822, "bytes_per_second": 897191246.3442734}}, {"name": "FIR Filter (Complex taps, Complex input, length 16)", "block_name": "filter.fir_filter_ccc", "results": {"samples_per_second": 86633449.31808072, "samples_per_second_stdev": 418582.15180305333, "bytes_per_second": 693067594.5446458}}, {"name": "FIR Filter (Complex taps, Complex input, length 32)", "block_name": "filter.fir_filter_ccc", "results": {"samples_per_second": 55668110.14809553, "samples_per_second_stdev": 466924.0067728402, "bytes_per_second": 445344881.18476427}}, {"name": "FIR Filter (Complex taps, Complex input, length 64)", "block_name": "filter.fir_filter_ccc", "results": {"samples_per_second": 32537801.929694034, "samples_per_second_stdev": 669193.4638709866, "bytes_per_second": 260302415.43755227}}, {"name": "FIR Filter (Complex taps, Complex input, length 128)", "block_name": "filter.fir_filter_ccc", "results": {"samples_per_second": 17875299.90574218, "samples_per_second_stdev": 168192.79264975476, "bytes_per_second": 143002399.24593744}}, {"name": "FIR Filter (1 Thread, FFT, Complex taps, Complex input, length 2)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 84518748.85142452, "samples_per_second_stdev": 928307.245125862, "bytes_per_second": 676149990.8113961}}, {"name": "FIR Filter (1 Thread, FFT, Complex taps, Complex input, length 4)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 80742838.7263749, "samples_per_second_stdev": 2449413.648718834, "bytes_per_second": 645942709.8109992}}, {"name": "FIR Filter (1 Thread, FFT, Complex taps, Complex input, length 8)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 79610657.01892255, "samples_per_second_stdev": 3668096.5462867273, "bytes_per_second": 636885256.1513804}}, {"name": "FIR Filter (1 Thread, FFT, Complex taps, Complex input, length 16)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 74672136.97963126, "samples_per_second_stdev": 2716703.664768842, "bytes_per_second": 597377095.8370501}}, {"name": "FIR Filter (1 Thread, FFT, Complex taps, Complex input, length 32)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 69625876.00316907, "samples_per_second_stdev": 547996.6170953499, "bytes_per_second": 557007008.0253526}}, {"name": "FIR Filter (1 Thread, FFT, Complex taps, Complex input, length 64)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 59813524.86570204, "samples_per_second_stdev": 348795.3039192597, "bytes_per_second": 478508198.9256163}}, {"name": "FIR Filter (1 Thread, FFT, Complex taps, Complex input, length 128)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 52059015.16255147, "samples_per_second_stdev": 613579.52440843, "bytes_per_second": 416472121.30041176}}, {"name": "FIR Filter (2 Thread, FFT, Complex taps, Complex input, length 2)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 82732604.37987112, "samples_per_second_stdev": 697490.8245835566, "bytes_per_second": 661860835.0389689}}, {"name": "FIR Filter (2 Thread, FFT, Complex taps, Complex input, length 4)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 80890789.67064138, "samples_per_second_stdev": 585726.1462351946, "bytes_per_second": 647126317.365131}}, {"name": "FIR Filter (2 Thread, FFT, Complex taps, Complex input, length 8)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 76479288.05193263, "samples_per_second_stdev": 9153235.711742708, "bytes_per_second": 611834304.4154611}}, {"name": "FIR Filter (2 Thread, FFT, Complex taps, Complex input, length 16)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 75940144.68464135, "samples_per_second_stdev": 1610518.5334167355, "bytes_per_second": 607521157.4771308}}, {"name": "FIR Filter (2 Thread, FFT, Complex taps, Complex input, length 32)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 70346946.90341622, "samples_per_second_stdev": 1119248.9829351516, "bytes_per_second": 562775575.2273297}}, {"name": "FIR Filter (2 Thread, FFT, Complex taps, Complex input, length 64)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 3390025.645230947, "samples_per_second_stdev": 24164.20233738391, "bytes_per_second": 27120205.161847576}}, {"name": "FIR Filter (2 Thread, FFT, Complex taps, Complex input, length 128)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 4910405.083712768, "samples_per_second_stdev": 36291.35356682468, "bytes_per_second": 39283240.66970214}}, {"name": "FIR Filter (4 Thread, FFT, Complex taps, Complex input, length 2)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 83188787.41051541, "samples_per_second_stdev": 324154.5666938125, "bytes_per_second": 665510299.2841233}}, {"name": "FIR Filter (4 Thread, FFT, Complex taps, Complex input, length 4)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 80581225.19476248, "samples_per_second_stdev": 289999.071471939, "bytes_per_second": 644649801.5580999}}, {"name": "FIR Filter (4 Thread, FFT, Complex taps, Complex input, length 8)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 80117926.36310121, "samples_per_second_stdev": 3927203.4805456256, "bytes_per_second": 640943410.9048097}}, {"name": "FIR Filter (4 Thread, FFT, Complex taps, Complex input, length 16)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 76142403.496036, "samples_per_second_stdev": 983116.45357643, "bytes_per_second": 609139227.968288}}, {"name": "FIR Filter (4 Thread, FFT, Complex taps, Complex input, length 32)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 70031248.57407871, "samples_per_second_stdev": 881630.5712740503, "bytes_per_second": 560249988.5926297}}, {"name": "FIR Filter (4 Thread, FFT, Complex taps, Complex input, length 64)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 1902775.580707223, "samples_per_second_stdev": 125590.32965018529, "bytes_per_second": 15222204.645657783}}, {"name": "FIR Filter (4 Thread, FFT, Complex taps, Complex input, length 128)", "block_name": "filter.fft_filter_ccc", "results": {"samples_per_second": 3220672.4426320717, "samples_per_second_stdev": 726234.4442823405, "bytes_per_second": 25765379.541056573}}]}
