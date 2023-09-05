@@ -58,6 +58,26 @@ def test_fft_filter_ccc():
 
     return top, probe
 
+@benchmark("FIR Filter (2 Thread, FFT, Complex taps, Complex input", "filter.fft_filter_ccc")
+def test_fft_filter_ccc():
+    top = gr.top_block()
+    src = blocks.null_source(gr.sizeof_gr_complex)
+    firfilter = filter.fft_filter_ccc(1, [complex(random.random(), random.random()) for _ in range(filter_length)],nthreads=2)
+    probe = blocks.probe_rate(gr.sizeof_gr_complex)
+    top.connect(src, firfilter, probe)
+
+    return top, probe
+
+@benchmark("FIR Filter (4 Thread, FFT, Complex taps, Complex input", "filter.fft_filter_ccc")
+def test_fft_filter_ccc():
+    top = gr.top_block()
+    src = blocks.null_source(gr.sizeof_gr_complex)
+    firfilter = filter.fft_filter_ccc(1, [complex(random.random(), random.random()) for _ in range(filter_length)],nthreads=4)
+    probe = blocks.probe_rate(gr.sizeof_gr_complex)
+    top.connect(src, firfilter, probe)
+
+    return top, probe
+
 ################################################################################
 
 # Benchmark runner
