@@ -104,7 +104,7 @@ if __name__ == '__main__':
     }
 
     for index, benchmark in enumerate(BenchmarkSuite):
-        for filter_length in range( 1, 1002, 50):
+        for filter_length in (2,4,8,16,32,64,128):
             test_name, block_name, test_factory = benchmark
             test_name = test_name + (", length %i)" % filter_length)
             sys.stderr.write("Running benchmark {}/{} \"{}\"\n".format(index+1, len(BenchmarkSuite), test_name))
